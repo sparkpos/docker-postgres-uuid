@@ -1,6 +1,6 @@
-FROM postgres
+FROM postgres:10.3
 
-MAINTAINER Nicolas Bös
+MAINTAINER Terry Zhang
 
 RUN apt-get update && apt-get install -y postgresql-contrib
 
